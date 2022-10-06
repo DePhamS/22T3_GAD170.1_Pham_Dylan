@@ -27,9 +27,9 @@ namespace DylanPham
             // TODO XP 6/13: Set our current XP Threshold to be our level multiplied by our 100.
             experienceRequired = 100;
             // TODO XP 7/13: Debug out our starting values of our level, XP and current XP threshold.
-            Debug.Log(level);
-            Debug.Log(experience);
-            Debug.Log(experienceRequired);
+            Debug.Log("Current level = " + level);
+            Debug.Log("Current experience = " + experience);
+            Debug.Log("Experience Threshold = " + experienceRequired);
 
             // TODO XP 8/13: Increase the current XP by a random amount between 50 and 100.
 
@@ -55,8 +55,8 @@ namespace DylanPham
             if(Input.GetKeyDown(KeyCode.E))
             {
                 experience += Random.Range(50, 100);
-                Debug.Log("Current experience = " + experience);
                 Debug.Log("Current level = " + level);
+                Debug.Log("Current experience = " + experience);
                 Debug.Log("Experience Threshold = " + experienceRequired);
             }
         }

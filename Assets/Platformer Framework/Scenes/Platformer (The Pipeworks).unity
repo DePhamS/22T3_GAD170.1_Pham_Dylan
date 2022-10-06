@@ -143,7 +143,7 @@ MonoBehaviour:
   horizontalInputValue: 7
   spriteRenderer: {fileID: 0}
   JumpForce: 7
---- !u!114 &2138685
+--- !u!114 &2138691
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1198,11 +1198,19 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[0].second.m_AnimationSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[3].second.m_AnimationSpeed
-      value: 5.0000005
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[9].second.m_AnimationSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
+      propertyPath: m_AnimatedTiles.Array.data[11].second.m_AnimationSpeed
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
@@ -1223,7 +1231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[24].second.m_AnimationSpeed
-      value: 5
+      value: 5.0000005
       objectReference: {fileID: 0}
     - target: {fileID: 7394264480018439365, guid: 63a2da37f3a2f33449155db3a3059391, type: 3}
       propertyPath: m_AnimatedTiles.Array.data[25].second.m_AnimationSpeed
